@@ -119,15 +119,15 @@ show_digit(X_train_array[2], 'This is a {}'.format(y_train[2]-1))
 ```
 
 
-![png](output_11_0.png)
+![png](./images/output_11_0.png)
 
 
 
-![png](output_11_1.png)
+![png](./images/output_11_1.png)
 
 
 
-![png](output_11_2.png)
+![png](./images/output_11_2.png)
 
 
 Let's take a look at the frequency of each category or digit.  The distribution looks pretty good. 0's and 1's have a few more than others, but still looks good. 5 and 6 are the lowest of all the distribution.
@@ -168,7 +168,7 @@ plt.show()
 
 
 
-![png](output_13_1.png)
+![png](./images/output_13_1.png)
 
 
 ## Training The Model
@@ -270,7 +270,7 @@ for cluster in range(10):
 
 
 
-![png](output_17_1.png)
+![png](./images/output_17_1.png)
 
 
     
@@ -278,7 +278,7 @@ for cluster in range(10):
 
 
 
-![png](output_17_3.png)
+![png](./images/output_17_3.png)
 
 
     
@@ -286,7 +286,7 @@ for cluster in range(10):
 
 
 
-![png](output_17_5.png)
+![png](./images/output_17_5.png)
 
 
     
@@ -294,7 +294,7 @@ for cluster in range(10):
 
 
 
-![png](output_17_7.png)
+![png](./images/output_17_7.png)
 
 
     
@@ -302,7 +302,7 @@ for cluster in range(10):
 
 
 
-![png](output_17_9.png)
+![png](./images/output_17_9.png)
 
 
     
@@ -310,7 +310,7 @@ for cluster in range(10):
 
 
 
-![png](output_17_11.png)
+![png](./images/output_17_11.png)
 
 
     
@@ -318,7 +318,7 @@ for cluster in range(10):
 
 
 
-![png](output_17_13.png)
+![png](./images/output_17_13.png)
 
 
     
@@ -326,7 +326,7 @@ for cluster in range(10):
 
 
 
-![png](output_17_15.png)
+![png](./images/output_17_15.png)
 
 
     
@@ -334,7 +334,7 @@ for cluster in range(10):
 
 
 
-![png](output_17_17.png)
+![png](./images/output_17_17.png)
 
 
     
@@ -342,7 +342,7 @@ for cluster in range(10):
 
 
 
-![png](output_17_19.png)
+![png](./images/output_17_19.png)
 
 
 It looks like the cluster 2 and cluster 6 both have 0 as the most common value. Lets take a look at the second most common value which is cluster 2 is 5. So we will mark cluster 2 as the predictor for 5.
@@ -415,7 +415,7 @@ print('The v-means score is {}.'.format(v_measure_score(mapped_clusters, y_test)
 ## Random Sparsification
 After applying the USPS dataset to the KMeans algorithms and forming a baseline model. The next step the author does is apply random sparsification to the matrix dataset then evaluates the results. The top portion of the graphic is what we are accomplishing through out the next few steps. We will evaluate the model after each sparsification. 
 
-<img src="./sparse.png">
+<img src="./images/sparse.png">
 
 
 ```python
@@ -553,7 +553,7 @@ for cluster in range(10):
 
 
 
-![png](output_31_1.png)
+![png](./images/output_31_1.png)
 
 
     
@@ -561,7 +561,7 @@ for cluster in range(10):
 
 
 
-![png](output_31_3.png)
+![png](./images/output_31_3.png)
 
 
     
@@ -569,7 +569,7 @@ for cluster in range(10):
 
 
 
-![png](output_31_5.png)
+![png](./images/output_31_5.png)
 
 
     
@@ -577,7 +577,7 @@ for cluster in range(10):
 
 
 
-![png](output_31_7.png)
+![png](./images/output_31_7.png)
 
 
     
@@ -585,7 +585,7 @@ for cluster in range(10):
 
 
 
-![png](output_31_9.png)
+![png](./images/output_31_9.png)
 
 
     
@@ -593,7 +593,7 @@ for cluster in range(10):
 
 
 
-![png](output_31_11.png)
+![png](./images/output_31_11.png)
 
 
     
@@ -601,7 +601,7 @@ for cluster in range(10):
 
 
 
-![png](output_31_13.png)
+![png](./images/output_31_13.png)
 
 
     
@@ -609,7 +609,7 @@ for cluster in range(10):
 
 
 
-![png](output_31_15.png)
+![png](./images/output_31_15.png)
 
 
     
@@ -617,7 +617,7 @@ for cluster in range(10):
 
 
 
-![png](output_31_17.png)
+![png](./images/output_31_17.png)
 
 
     
@@ -625,7 +625,7 @@ for cluster in range(10):
 
 
 
-![png](output_31_19.png)
+![png](./images/output_31_19.png)
 
 
 
@@ -821,7 +821,7 @@ for cluster in range(10):
 
 
 
-![png](output_41_1.png)
+![png](./images/output_41_1.png)
 
 
     
@@ -829,7 +829,7 @@ for cluster in range(10):
 
 
 
-![png](output_41_3.png)
+![png](./images/output_41_3.png)
 
 
     
@@ -837,7 +837,7 @@ for cluster in range(10):
 
 
 
-![png](output_41_5.png)
+![png](./images/output_41_5.png)
 
 
     
@@ -845,7 +845,7 @@ for cluster in range(10):
 
 
 
-![png](output_41_7.png)
+![png](./images/output_41_7.png)
 
 
     
@@ -853,7 +853,7 @@ for cluster in range(10):
 
 
 
-![png](output_41_9.png)
+![png](./images/output_41_9.png)
 
 
     
@@ -861,7 +861,7 @@ for cluster in range(10):
 
 
 
-![png](output_41_11.png)
+![png](./images/output_41_11.png)
 
 
     
@@ -869,7 +869,7 @@ for cluster in range(10):
 
 
 
-![png](output_41_13.png)
+![png](./images/output_41_13.png)
 
 
     
@@ -877,7 +877,7 @@ for cluster in range(10):
 
 
 
-![png](output_41_15.png)
+![png](./images/output_41_15.png)
 
 
     
@@ -885,7 +885,7 @@ for cluster in range(10):
 
 
 
-![png](output_41_17.png)
+![png](./images/output_41_17.png)
 
 
     
@@ -893,7 +893,7 @@ for cluster in range(10):
 
 
 
-![png](output_41_19.png)
+![png](./images/output_41_19.png)
 
 
 
@@ -1108,7 +1108,7 @@ for cluster in range(10):
 
 
 
-![png](output_52_5.png)
+![png](./images/output_52_5.png)
 
 
     
@@ -1116,7 +1116,7 @@ for cluster in range(10):
 
 
 
-![png](output_52_7.png)
+![png](./images/output_52_7.png)
 
 
     
@@ -1124,7 +1124,7 @@ for cluster in range(10):
 
 
 
-![png](output_52_9.png)
+![png](./images/output_52_9.png)
 
 
     
@@ -1132,7 +1132,7 @@ for cluster in range(10):
 
 
 
-![png](output_52_11.png)
+![png](./images/output_52_11.png)
 
 
     
@@ -1140,7 +1140,7 @@ for cluster in range(10):
 
 
 
-![png](output_52_13.png)
+![png](./images/output_52_13.png)
 
 
     
@@ -1148,7 +1148,7 @@ for cluster in range(10):
 
 
 
-![png](output_52_15.png)
+![png](./images/output_52_15.png)
 
 
     
@@ -1156,7 +1156,7 @@ for cluster in range(10):
 
 
 
-![png](output_52_17.png)
+![png](./images/output_52_17.png)
 
 
     
@@ -1164,7 +1164,7 @@ for cluster in range(10):
 
 
 
-![png](output_52_19.png)
+![png](./images/output_52_19.png)
 
 
 
@@ -1214,4 +1214,4 @@ print('The homoeneity score is {}.'.format(v_measure_score(mapped_clusters, y_te
 
 So, we can clearly see that the ratio of correct classifications is going down, just like the paper references. Once we continue this process we will see the decrease continue. The author has then shows his results which are displayed below. Basically the q is the fraction of zero entries (or sparsified entries) and hi(q)is the metric function used to evaluate k-means cluster results. What his shows is the effect of random sparsification obtained by uniform and non-uniform sampling on k-means clustering. In all the subplots, red curve indicates uniform sampling and blue curve indicated non-uniform sampling. The black line in the second row indicates normalized mutual information obtained by performing k-means clustering on the original data set. For uniform sampling, p simply indicates that p fraction of entries of the sparsified dataset are non-zero. For non-uniform sampling, the authors uses improved uniform sampling techniques by retaining entries with probability that depends on their magnitude.
 
-<img src="./graphs.png" />
+<img src="./images/graphs.png" />
