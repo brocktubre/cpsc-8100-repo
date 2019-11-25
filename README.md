@@ -413,9 +413,9 @@ print('The v-means score is {}.'.format(v_measure_score(mapped_clusters, y_test)
 <br>
 
 ## Random Sparsification
-After applying the USPS dataset to the KMeans algorithms and forming a baseline model. The next step the author does is apply random sparsecification to the matrix dataset then evaluates the results. The top portion of the graphic is what we are accomplishing through out the next few steps. We will evaluate the model after each sparsification. 
+After applying the USPS dataset to the KMeans algorithms and forming a baseline model. The next step the author does is apply random sparsification to the matrix dataset then evaluates the results. The top portion of the graphic is what we are accomplishing through out the next few steps. We will evaluate the model after each sparsification. 
 
-<img src="./sparse.png">
+<img src="./images/sparse.png">
 
 
 ```python
@@ -635,7 +635,7 @@ So, we can clearly see that the ratio of correct classifications is going down, 
 
 So, we can clearly see that the ratio of correct classifications is going down, just like the paper refernces. Once we continue this prcocess we will see the decrease continue. The author has then shows his results which are displayed below. Basically the q is the fraction of zero entries (or sparsified entries) and hi(q)is the metric function used to evaluate k-means cluster results. What his shows is the effect of random sparsification obtained by uniform and non-uniform sampling on k-means clustering. In all the subplots, red curve indicates uniform sampling and blue curve indicated non-uniform sampling. The black line in the second row indicates normalized mutual information obtained by performing k-means clustering on the original data set. For uniform sampling, p simply indicates that p fraction of entries of the sparsified dataset are non-zero. For non-uniform sampling, the authors uses improved uniform sampling techniques by retaining entries with probability that depends on their magnitude.
 
-<img src="./graphs.png" />
+<img src="./images/graphs.png" />
 
 ## Phase 3
 In this section, I will demonstrate a new idea which can provide a non-trivial improvement of the original work.
